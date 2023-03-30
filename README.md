@@ -48,7 +48,7 @@ Resolution is in minutes and has to be in: `["1","3","5","10","15","30","60","12
 
 
 
-**If start time is earlier than earliest date, system will still work, it will retrieve the <u>maximum data possible</u>,  just that the file name may not be that same as actual time range** 
+**If start time is earlier than earliest date, system will still work, it will retrieve the <u>maximum data possible</u>** 
 
 
 
@@ -57,6 +57,14 @@ Resolution is in minutes and has to be in: `["1","3","5","10","15","30","60","12
 > !!! BTC-PERPETUAL goes back to as far as 2018-08-13
 >
 > !!! BTC-29SEP23-28000-C goes back to as far as 2023-01-25
+
+
+
+### All options
+
+run `run.py` in `all_option` folder to download all options historical data
+
+
 
 
 
