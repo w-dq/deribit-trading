@@ -61,4 +61,5 @@ Resolution is in minutes and has to be in: `["1","3","5","10","15","30","60","12
 
 
 833 - public/get_tradingview_chart_data
+
 834 - public/get_instruments 
