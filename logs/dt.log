@@ -1,0 +1,176 @@
+[2023-04-03 23:19:01,427][root]: thrust range:5.0 buy_level:28028.0, sell_level:28026.0
+[2023-04-03 23:20:01,167][root]: thrust range:17.5 buy_level:28027.0, sell_level:28020.0
+[2023-04-03 23:20:03,174][root]: buy market order sent at price 28028.0 and amount 100
+[2023-04-03 23:20:03,429][root]: buy trade confirmed amount:100.0 price:28028.0 fee:1.78e-06BTC
+[2023-04-03 23:20:41,670][root]: close market order sent at price 28016.0 and amount 100.0
+[2023-04-03 23:20:41,926][root]: sell trade confirmed amount:100.0 price:28016.0 fee:1.79e-06BTC
+[2023-04-03 23:21:01,184][root]: thrust range:14.0 buy_level:28027.3, sell_level:28021.7
+[2023-04-03 23:21:06,207][root]: buy market order sent at price 28028.0 and amount 100
+[2023-04-03 23:21:06,548][root]: buy trade confirmed amount:100.0 price:28028.5 fee:1.78e-06BTC
+[2023-04-03 23:22:01,329][root]: thrust range:6.0 buy_level:28032.2, sell_level:28029.8
+[2023-04-03 23:23:00,825][root]: thrust range:20.5 buy_level:28058.1, sell_level:28049.9
+[2023-04-03 23:23:04,844][root]: close market order sent at price 28037.5 and amount 100.0
+[2023-04-03 23:23:05,126][root]: sell trade confirmed amount:100.0 price:28037.5 fee:1.78e-06BTC
+[2023-04-03 23:23:11,474][root]: buy market order sent at price 28058.5 and amount 100
+[2023-04-03 23:23:11,736][root]: buy trade confirmed amount:10.0 price:28059.0 fee:1.8e-07BTC
+[2023-04-03 23:23:11,737][root]: buy trade confirmed amount:90.0 price:28060.0 fee:1.6e-06BTC
+[2023-04-03 23:24:01,455][root]: thrust range:47.0 buy_level:28088.9, sell_level:28070.1
+[2023-04-03 23:25:01,198][root]: thrust range:12.0 buy_level:28066.9, sell_level:28062.1
+[2023-04-03 23:25:09,226][root]: close market order sent at price 28051.0 and amount 100.0
+[2023-04-03 23:25:09,484][root]: sell trade confirmed amount:100.0 price:28051.0 fee:1.78e-06BTC
+[2023-04-03 23:26:01,193][root]: thrust range:31.5 buy_level:28073.8, sell_level:28061.2
+[2023-04-03 23:26:05,209][root]: buy market order sent at price 28080.0 and amount 100
+[2023-04-03 23:26:05,539][root]: buy trade confirmed amount:100.0 price:28075.0 fee:1.78e-06BTC
+[2023-04-03 23:27:01,531][root]: thrust range:33.0 buy_level:28097.1, sell_level:28083.9
+[2023-04-03 23:27:04,013][root]: close market order sent at price 28079.0 and amount 100.0
+[2023-04-03 23:27:04,271][root]: sell trade confirmed amount:100.0 price:28079.0 fee:1.78e-06BTC
+[2023-04-03 23:27:05,517][root]: buy market order sent at price 28106.5 and amount 100
+[2023-04-03 23:27:05,873][root]: buy trade confirmed amount:100.0 price:28095.0 fee:1.78e-06BTC
+[2023-04-03 23:27:41,410][root]: close market order sent at price 28083.0 and amount 100.0
+[2023-04-03 23:27:41,669][root]: sell trade confirmed amount:100.0 price:28083.0 fee:1.78e-06BTC
+[2023-04-03 23:28:01,053][root]: thrust range:27.5 buy_level:28083.0, sell_level:28072.0
+[2023-04-03 23:28:01,562][root]: buy market order sent at price 28085.5 and amount 100
+[2023-04-03 23:28:01,881][root]: buy trade confirmed amount:100.0 price:28085.5 fee:1.78e-06BTC
+[2023-04-03 23:28:16,112][root]: close market order sent at price 28071.5 and amount 100.0
+[2023-04-03 23:28:16,369][root]: sell trade confirmed amount:100.0 price:28070.0 fee:1.78e-06BTC
+[2023-04-03 23:29:01,046][root]: thrust range:30.0 buy_level:28079.5, sell_level:28067.5
+[2023-04-03 23:30:00,895][root]: thrust range:5.5 buy_level:28071.6, sell_level:28069.4
+[2023-04-03 23:30:01,395][root]: buy market order sent at price 28076.5 and amount 100
+[2023-04-03 23:30:01,648][root]: buy trade confirmed amount:100.0 price:28076.5 fee:1.78e-06BTC
+[2023-04-03 23:31:00,960][root]: thrust range:27.5 buy_level:28074.0, sell_level:28063.0
+[2023-04-03 23:31:01,462][root]: close market order sent at price 28059.5 and amount 100.0
+[2023-04-03 23:31:01,723][root]: sell trade confirmed amount:100.0 price:28059.5 fee:1.78e-06BTC
+[2023-04-03 23:31:03,972][root]: buy market order sent at price 28078.5 and amount 100
+[2023-04-03 23:31:04,224][root]: buy trade confirmed amount:100.0 price:28078.5 fee:1.78e-06BTC
+[2023-04-03 23:31:04,474][root]: close market order sent at price 28058.0 and amount 100.0
+[2023-04-03 23:31:04,729][root]: sell trade confirmed amount:100.0 price:28058.0 fee:1.78e-06BTC
+[2023-04-03 23:31:46,644][root]: buy market order sent at price 28077.5 and amount 100
+[2023-04-03 23:31:46,967][root]: buy trade confirmed amount:100.0 price:28077.5 fee:1.78e-06BTC
+[2023-04-03 23:32:01,028][root]: thrust range:33.0 buy_level:28094.1, sell_level:28080.9
+[2023-04-03 23:32:01,528][root]: close market order sent at price 28078.5 and amount 100.0
+[2023-04-03 23:32:01,783][root]: sell trade confirmed amount:100.0 price:28078.5 fee:1.78e-06BTC
+[2023-04-03 23:33:01,103][root]: thrust range:27.5 buy_level:28095.5, sell_level:28084.5
+[2023-04-03 23:33:46,274][root]: buy market order sent at price 28097.0 and amount 100
+[2023-04-03 23:33:46,531][root]: buy trade confirmed amount:100.0 price:28100.5 fee:1.78e-06BTC
+[2023-04-03 23:34:01,335][root]: thrust range:31.0 buy_level:28116.2, sell_level:28103.8
+[2023-04-03 23:34:04,347][root]: close market order sent at price 28094.0 and amount 100.0
+[2023-04-03 23:34:04,696][root]: sell trade confirmed amount:100.0 price:28094.0 fee:1.78e-06BTC
+[2023-04-03 23:35:01,603][root]: thrust range:44.5 buy_level:28079.9, sell_level:28062.1
+[2023-04-03 23:35:09,386][root]: buy market order sent at price 28085.0 and amount 100
+[2023-04-03 23:35:09,666][root]: buy trade confirmed amount:100.0 price:28099.0 fee:1.78e-06BTC
+[2023-04-03 23:35:36,492][root]: close market order sent at price 28061.0 and amount 100.0
+[2023-04-03 23:35:36,749][root]: sell trade confirmed amount:100.0 price:28061.0 fee:1.78e-06BTC
+[2023-04-03 23:36:01,090][root]: thrust range:48.5 buy_level:28075.7, sell_level:28056.3
+[2023-04-03 23:37:01,329][root]: thrust range:15.5 buy_level:28057.6, sell_level:28051.4
+[2023-04-03 23:37:16,390][root]: buy market order sent at price 28058.0 and amount 100
+[2023-04-03 23:37:16,645][root]: buy trade confirmed amount:100.0 price:28058.0 fee:1.78e-06BTC
+[2023-04-03 23:38:01,318][root]: thrust range:23.5 buy_level:28076.7, sell_level:28067.3
+[2023-04-03 23:39:01,452][root]: thrust range:8.5 buy_level:28065.2, sell_level:28061.8
+[2023-04-03 23:39:11,072][root]: close market order sent at price 28061.0 and amount 100.0
+[2023-04-03 23:39:11,326][root]: sell trade confirmed amount:100.0 price:28061.0 fee:1.78e-06BTC
+[2023-04-03 23:39:51,168][root]: buy market order sent at price 28068.0 and amount 100
+[2023-04-03 23:39:51,479][root]: buy trade confirmed amount:100.0 price:28077.0 fee:1.78e-06BTC
+[2023-04-03 23:40:01,306][root]: thrust range:34.0 buy_level:28082.8, sell_level:28069.2
+[2023-04-03 23:40:04,321][root]: close market order sent at price 28062.5 and amount 100.0
+[2023-04-03 23:40:04,583][root]: sell trade confirmed amount:100.0 price:28062.5 fee:1.78e-06BTC
+[2023-04-03 23:41:01,406][root]: thrust range:20.0 buy_level:28056.5, sell_level:28048.5
+[2023-04-03 23:41:02,488][root]: buy market order sent at price 28064.0 and amount 100
+[2023-04-03 23:41:02,921][root]: buy trade confirmed amount:100.0 price:28064.0 fee:1.78e-06BTC
+[2023-04-03 23:41:04,411][root]: close market order sent at price 28047.0 and amount 100.0
+[2023-04-03 23:41:04,683][root]: sell trade confirmed amount:100.0 price:28047.0 fee:1.78e-06BTC
+[2023-04-03 23:41:05,475][root]: buy market order sent at price 28074.5 and amount 100
+[2023-04-03 23:41:05,765][root]: buy trade confirmed amount:100.0 price:28057.0 fee:1.78e-06BTC
+[2023-04-03 23:42:01,371][root]: thrust range:41.0 buy_level:28064.2, sell_level:28047.8
+[2023-04-03 23:42:02,875][root]: close market order sent at price 28046.0 and amount 100.0
+[2023-04-03 23:42:03,130][root]: sell trade confirmed amount:100.0 price:28046.0 fee:1.78e-06BTC
+[2023-04-03 23:43:01,611][root]: thrust range:14.0 buy_level:28056.3, sell_level:28050.7
+[2023-04-03 23:43:31,234][root]: buy market order sent at price 28057.0 and amount 100
+[2023-04-03 23:43:31,493][root]: buy trade confirmed amount:100.0 price:28058.0 fee:1.78e-06BTC
+[2023-04-03 23:44:01,174][root]: thrust range:29.0 buy_level:28067.3, sell_level:28055.7
+[2023-04-03 23:44:11,210][root]: close market order sent at price 28052.0 and amount 100.0
+[2023-04-03 23:44:11,515][root]: sell trade confirmed amount:100.0 price:28050.0 fee:1.78e-06BTC
+[2023-04-03 23:45:01,340][root]: thrust range:33.5 buy_level:28027.7, sell_level:28014.3
+[2023-04-03 23:45:06,862][root]: buy market order sent at price 28031.5 and amount 100
+[2023-04-03 23:45:07,115][root]: buy trade confirmed amount:100.0 price:28031.5 fee:1.78e-06BTC
+[2023-04-03 23:46:00,994][root]: thrust range:17.5 buy_level:28047.5, sell_level:28040.5
+[2023-04-03 23:46:01,330][root]: close market order sent at price 28035.0 and amount 100.0
+[2023-04-03 23:46:01,587][root]: sell trade confirmed amount:100.0 price:28032.0 fee:1.78e-06BTC
+[2023-04-03 23:47:02,951][root]: thrust range:20.5 buy_level:28045.1, sell_level:28036.9
+[2023-04-03 23:47:16,043][root]: buy market order sent at price 28055.0 and amount 100
+[2023-04-03 23:47:16,299][root]: buy trade confirmed amount:100.0 price:28058.5 fee:1.78e-06BTC
+[2023-04-03 23:48:01,223][root]: thrust range:10.5 buy_level:28071.6, sell_level:28067.4
+[2023-04-03 23:49:03,056][root]: thrust range:11.5 buy_level:28078.3, sell_level:28073.7
+[2023-04-03 23:50:01,542][root]: thrust range:0.0 buy_level:28070.5, sell_level:28070.5
+[2023-04-03 23:51:03,025][root]: thrust range:16.5 buy_level:28086.8, sell_level:28080.2
+[2023-04-03 23:51:21,204][root]: close market order sent at price 28063.5 and amount 100.0
+[2023-04-03 23:51:21,510][root]: sell trade confirmed amount:100.0 price:28063.5 fee:1.78e-06BTC
+[2023-04-03 23:52:01,273][root]: thrust range:56.5 buy_level:28041.8, sell_level:28019.2
+[2023-04-03 23:53:01,534][root]: thrust range:23.0 buy_level:28024.6, sell_level:28015.4
+[2023-04-03 23:54:01,516][root]: thrust range:18.5 buy_level:28005.2, sell_level:27997.8
+[2023-04-03 23:54:03,021][root]: buy market order sent at price 28029.0 and amount 100
+[2023-04-03 23:54:03,301][root]: buy trade confirmed amount:100.0 price:28029.0 fee:1.78e-06BTC
+[2023-04-03 23:54:06,051][root]: close market order sent at price 27997.0 and amount 100.0
+[2023-04-03 23:54:06,305][root]: sell trade confirmed amount:100.0 price:27990.5 fee:1.79e-06BTC
+[2023-04-03 23:54:41,596][root]: buy market order sent at price 28009.0 and amount 100
+[2023-04-03 23:54:41,848][root]: buy trade confirmed amount:100.0 price:28005.0 fee:1.79e-06BTC
+[2023-04-03 23:55:02,966][root]: thrust range:39.0 buy_level:28015.3, sell_level:27999.7
+[2023-04-03 23:55:56,348][root]: close market order sent at price 27998.5 and amount 100.0
+[2023-04-03 23:55:56,605][root]: sell trade confirmed amount:100.0 price:27996.5 fee:1.79e-06BTC
+[2023-04-03 23:56:02,972][root]: thrust range:13.0 buy_level:27999.1, sell_level:27993.9
+[2023-04-03 23:56:11,367][root]: buy market order sent at price 28010.5 and amount 100
+[2023-04-03 23:56:11,707][root]: buy trade confirmed amount:100.0 price:28010.5 fee:1.79e-06BTC
+[2023-04-03 23:57:01,454][root]: thrust range:28.0 buy_level:28050.6, sell_level:28039.4
+[2023-04-03 23:58:03,016][root]: thrust range:16.5 buy_level:28057.3, sell_level:28050.7
+[2023-04-03 23:58:21,026][root]: close market order sent at price 28050.5 and amount 100.0
+[2023-04-03 23:58:21,281][root]: sell trade confirmed amount:100.0 price:28053.0 fee:1.78e-06BTC
+[2023-04-03 23:58:26,055][root]: buy market order sent at price 28061.5 and amount 100
+[2023-04-03 23:58:26,311][root]: buy trade confirmed amount:100.0 price:28064.5 fee:1.78e-06BTC
+[2023-04-03 23:59:02,968][root]: thrust range:15.0 buy_level:28066.0, sell_level:28060.0
+[2023-04-03 23:59:11,749][root]: close market order sent at price 28055.0 and amount 100.0
+[2023-04-03 23:59:12,006][root]: sell trade confirmed amount:100.0 price:28053.5 fee:1.78e-06BTC
+[2023-04-04 00:00:01,174][root]: thrust range:13.0 buy_level:28050.1, sell_level:28044.9
+[2023-04-04 00:00:03,182][root]: buy market order sent at price 28051.5 and amount 100
+[2023-04-04 00:00:03,438][root]: buy trade confirmed amount:100.0 price:28052.5 fee:1.78e-06BTC
+[2023-04-04 00:00:31,300][root]: close market order sent at price 28041.5 and amount 100.0
+[2023-04-04 00:00:31,553][root]: sell trade confirmed amount:100.0 price:28043.0 fee:1.78e-06BTC
+[2023-04-04 00:01:02,965][root]: thrust range:12.5 buy_level:28050.5, sell_level:28045.5
+[2023-04-04 00:02:01,558][root]: thrust range:0.0 buy_level:28037.0, sell_level:28037.0
+[2023-04-04 00:03:01,547][root]: thrust range:6.0 buy_level:28035.7, sell_level:28033.3
+[2023-04-04 00:04:02,967][root]: thrust range:0.0 buy_level:28034.5, sell_level:28034.5
+[2023-04-04 00:04:11,245][root]: buy market order sent at price 28040.0 and amount 100
+[2023-04-04 00:04:11,501][root]: buy trade confirmed amount:100.0 price:28046.0 fee:1.78e-06BTC
+[2023-04-04 00:05:01,422][root]: thrust range:11.0 buy_level:28068.2, sell_level:28063.8
+[2023-04-04 00:05:02,957][root]: close market order sent at price 28061.5 and amount 100.0
+[2023-04-04 00:05:03,367][root]: sell trade confirmed amount:100.0 price:28056.0 fee:1.78e-06BTC
+[2023-04-04 00:06:02,967][root]: thrust range:13.5 buy_level:28059.2, sell_level:28053.8
+[2023-04-04 00:07:01,044][root]: thrust range:7.5 buy_level:28061.0, sell_level:28058.0
+[2023-04-04 00:08:01,438][root]: thrust range:1.5 buy_level:28077.8, sell_level:28077.2
+[2023-04-04 00:08:02,871][root]: buy market order sent at price 28082.0 and amount 100
+[2023-04-04 00:08:03,128][root]: buy trade confirmed amount:100.0 price:28086.5 fee:1.78e-06BTC
+[2023-04-04 00:09:01,396][root]: thrust range:13.5 buy_level:28094.2, sell_level:28088.8
+[2023-04-04 00:10:00,935][root]: thrust range:33.5 buy_level:28116.7, sell_level:28103.3
+[2023-04-04 00:10:11,591][root]: close market order sent at price 28101.5 and amount 100.0
+[2023-04-04 00:10:11,844][root]: sell trade confirmed amount:100.0 price:28096.5 fee:1.78e-06BTC
+[2023-04-04 00:11:01,765][root]: thrust range:31.0 buy_level:28087.7, sell_level:28075.3
+[2023-04-04 00:11:26,854][root]: buy market order sent at price 28089.5 and amount 100
+[2023-04-04 00:11:27,108][root]: buy trade confirmed amount:100.0 price:28086.5 fee:1.78e-06BTC
+[2023-04-04 00:12:01,245][root]: thrust range:20.0 buy_level:28114.0, sell_level:28106.0
+[2023-04-04 00:12:03,204][root]: close market order sent at price 28105.5 and amount 100.0
+[2023-04-04 00:12:03,458][root]: sell trade confirmed amount:100.0 price:28105.0 fee:1.78e-06BTC
+[2023-04-04 00:13:01,456][root]: thrust range:15.0 buy_level:28087.5, sell_level:28081.5
+[2023-04-04 00:13:01,927][root]: buy market order sent at price 28093.5 and amount 100
+[2023-04-04 00:13:02,192][root]: buy trade confirmed amount:100.0 price:28100.5 fee:1.78e-06BTC
+[2023-04-04 00:14:00,964][root]: thrust range:16.0 buy_level:28095.2, sell_level:28088.8
+[2023-04-04 00:15:01,124][root]: thrust range:5.0 buy_level:28087.5, sell_level:28085.5
+[2023-04-04 00:16:01,308][root]: thrust range:13.0 buy_level:28105.6, sell_level:28100.4
+[2023-04-04 00:16:06,828][root]: close market order sent at price 28096.0 and amount 100.0
+[2023-04-04 00:16:07,185][root]: sell trade confirmed amount:100.0 price:28095.0 fee:1.78e-06BTC
+[2023-04-04 00:17:03,039][root]: thrust range:16.5 buy_level:28105.3, sell_level:28098.7
+[2023-04-04 00:18:01,617][root]: thrust range:0.0 buy_level:28087.5, sell_level:28087.5
+[2023-04-04 00:19:02,978][root]: thrust range:6.5 buy_level:28085.8, sell_level:28083.2
+[2023-04-04 00:19:41,762][root]: buy market order sent at price 28092.5 and amount 100
+[2023-04-04 00:19:42,018][root]: buy trade confirmed amount:100.0 price:28092.5 fee:1.78e-06BTC
+[2023-04-04 00:20:01,399][root]: thrust range:14.0 buy_level:28106.8, sell_level:28101.2
+[2023-04-04 00:20:03,334][root]: close market order sent at price 28101.0 and amount 100.0
+[2023-04-04 00:20:03,589][root]: sell trade confirmed amount:100.0 price:28099.0 fee:1.78e-06BTC
+[2023-04-04 00:21:01,432][root]: thrust range:8.5 buy_level:28101.2, sell_level:28097.8
