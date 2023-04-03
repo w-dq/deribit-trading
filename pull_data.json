@@ -1,6 +1,6 @@
 {
     "instrument_name" : "BTC-29SEP23-28000-C",
-    "start_timestamp" : "2023-03-28 23:01:59",
+    "start_timestamp" : "2020-01-25 00:00:00",
     "end_timestamp" : "now",
-    "resolution" : "1"
+    "resolution" : "1D"
 }

@@ -68,6 +68,8 @@ run `run.py` in `all_option` folder to download all options historical data
 
 
 
-833 - public/get_tradingview_chart_data
+833  - public/get_tradingview_chart_data
 
-834 - public/get_instruments 
+834  - public/get_instruments 
+
+9929 - public/auth

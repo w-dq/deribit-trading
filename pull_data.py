@@ -21,21 +21,10 @@ def to_filename_timestr(stamp_in_milli):
     dt_string = dt_object.strftime("%Y-%m-%d-%H:%M")
     return dt_string
 
-def get_datetime_col(start,end,resolution):
-    if resolution == "1D":
-        resolution = 24*60
-    else:
-        resolution = int(resolution)
-    start_datetime = datetime.fromtimestamp(start/1000)
-    end_datetime = datetime.fromtimestamp(end/1000)
-    timedelta_resolution = timedelta(minutes=resolution)
-    datetime_strings = []
-    current_datetime = start_datetime
-    while current_datetime <= end_datetime:
-        datetime_strings.append(current_datetime.strftime("%Y-%m-%d %H:%M"))
-        current_datetime += timedelta_resolution
-    datetime_strings.append(current_datetime.strftime("%Y-%m-%d %H:%M"))
-    return datetime_strings
+def get_datetime_col(stamp_in_milli):
+    dt_object = datetime.fromtimestamp(stamp_in_milli/1000)
+    dt_string = dt_object.strftime("%Y-%m-%d %H:%M")
+    return dt_string
 
 
 async def call_instruments(msg):
@@ -43,13 +32,13 @@ async def call_instruments(msg):
         await websocket.send(msg)
         response = await websocket.recv()
         response = json.loads(response)
-        # try:
-        data = response["result"]
-        df = pd.DataFrame(data)
-        df.insert(0, "instrument_name", df.pop("instrument_name"))
-        df.to_csv("instruments.csv", index=False)
-        # except:
-        #     print("error while dealing with response")
+        try:
+            data = response["result"]
+            df = pd.DataFrame(data)
+            df.insert(0, "instrument_name", df.pop("instrument_name"))
+            df.to_csv("instruments.csv", index=False)
+        except:
+            print("error while dealing with response")
 
 async def call_chart_data(msg):
     async with websockets.connect(base_wss) as websocket:
@@ -81,7 +70,7 @@ def get_instruments(currency):
     loop = asyncio.get_event_loop()
     loop.run_until_complete(call_instruments(json.dumps(msg)))
 
-def get_data(params,filename):
+def get_data(params):
     msg = \
     {
         "jsonrpc" : "2.0",
@@ -93,8 +82,14 @@ def get_data(params,filename):
     loop = asyncio.get_event_loop()
     result_df, status = loop.run_until_complete(call_chart_data(json.dumps(msg)))
     if status == "ok":
-        time_col = get_datetime_col(params["start_timestamp"],params["end_timestamp"],params["resolution"])
-        result_df.insert(0,"datetime",time_col[-result_df.shape[0]:])
+        result_df.insert(0,"datetime",result_df['ticks'].apply(get_datetime_col))
+
+        filename = "_".join([params["instrument_name"],
+                             to_filename_timestr(result_df["ticks"].iloc[0]),
+                             to_filename_timestr(result_df["ticks"].iloc[-1]),
+                             params["resolution"]
+                            ])
+
         result_df.to_csv("data/"+filename+".csv", index=False)
     elif status == "no_data":
         print("no data for this set of config! check instrument, time and resolution")
@@ -122,12 +117,6 @@ if __name__ == "__main__":
         else:
             params["end_timestamp"] = to_timestamp_in_milliseconds(params["end_timestamp"])
         if params["resolution"] in ["1","3","5","10","15","30","60","120","180","360","720","1D"]:
-            filename = "_".join([params["instrument_name"],
-                                 to_filename_timestr(params["start_timestamp"]),
-                                 to_filename_timestr(params["end_timestamp"]),
-                                 params["resolution"]
-                                ])
-            print(filename)
-            get_data(params,filename)
+            get_data(params)
         else:
             print("check resolution")
