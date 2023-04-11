@@ -1,0 +1,25 @@
+[2023-04-11 16:28:23,983][INFO] : Successfully logged on to private method
+[2023-04-11 16:28:23,983][INFO] : Subscribe to chart.trades.BTC-PERPETUAL.1
+[2023-04-11 16:28:24,240][INFO] : head is at:0, waiting period: 1
+[2023-04-11 16:29:12,824][INFO] : head is at:1, waiting period: 1
+[2023-04-11 16:30:01,279][INFO] : head is at:2, waiting period: 1
+[2023-04-11 16:30:01,281][INFO] : thrust range:7.0 buy_level:30158.9, sell_level:30156.1
+[2023-04-11 16:30:01,781][INFO] : buy market order sent at price 30172.0 and amount 1000
+[2023-04-11 16:30:02,097][INFO] : buy trade confirmed amount:1000.0 price:30172.0 fee:1.657e-05BTC
+[2023-04-11 16:31:02,051][INFO] : head is at:3, waiting period: 1
+[2023-04-11 16:31:02,051][INFO] : thrust range:15.0 buy_level:30172.0, sell_level:30166.0
+[2023-04-11 16:32:07,627][INFO] : head is at:4, waiting period: 1
+[2023-04-11 16:32:07,627][INFO] : thrust range:2.0 buy_level:30171.4, sell_level:30170.6
+[2023-04-11 16:33:15,905][INFO] : head is at:5, waiting period: 1
+[2023-04-11 16:33:15,906][INFO] : thrust range:12.5 buy_level:30186.5, sell_level:30181.5
+[2023-04-11 16:33:37,568][INFO] : close market order sent at price 30178.0 and amount 1000.0
+[2023-04-11 16:33:37,829][INFO] : sell trade confirmed amount:80.0 price:30168.0 fee:1.33e-06BTC
+[2023-04-11 16:33:37,829][INFO] : sell trade confirmed amount:130.0 price:30166.0 fee:2.16e-06BTC
+[2023-04-11 16:33:37,830][INFO] : sell trade confirmed amount:80.0 price:30163.0 fee:1.33e-06BTC
+[2023-04-11 16:33:37,830][INFO] : sell trade confirmed amount:710.0 price:30145.5 fee:1.178e-05BTC
+[2023-04-11 16:34:17,477][INFO] : head is at:6, waiting period: 1
+[2023-04-11 16:34:17,477][INFO] : thrust range:42.0 buy_level:30176.4, sell_level:30159.6
+[2023-04-11 16:35:19,546][INFO] : head is at:7, waiting period: 1
+[2023-04-11 16:35:19,546][INFO] : thrust range:4.5 buy_level:30149.9, sell_level:30148.1
+[2023-04-11 16:36:39,458][INFO] : head is at:8, waiting period: 1
+[2023-04-11 16:36:39,458][INFO] : thrust range:1.5 buy_level:30148.3, sell_level:30147.7
